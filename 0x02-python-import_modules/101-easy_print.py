@@ -1,2 +1,2 @@
-import sys
-sys.stdout.write("#pythoniscool\n")
+#!/usr/bin/python3
+import easy_print
