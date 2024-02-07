@@ -14,7 +14,7 @@ class Square:
         self.size = size
 
     @property
-    def size(slef):
+    def size(self):
         """Property for the length of side of this square.
 
         Raises:
@@ -22,7 +22,7 @@ class Square:
             TypeError: if size is not an intege
             ValueError: if size is less than 0.
         """
-        return self._size
+        return self.__size
 
     @size.setter
     def size(self, value):
@@ -42,7 +42,7 @@ class Square:
 
     def my_print(self):
         """Prints this square."""
-        for i in range(self, size):
+        for i in range(self.size):
             for j in range(self.size):
                 print("#", end="\n" if j is self.size - 1 and i != j else "")
         print()

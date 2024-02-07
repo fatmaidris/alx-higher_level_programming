@@ -14,7 +14,7 @@ class Square:
         self.size = size
 
     @property
-    def size(slef):
+    def size(self):
         """Property for the length of side of this square.
 
         Raises:
