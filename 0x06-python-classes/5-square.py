@@ -19,7 +19,7 @@ class Square:
 
         Raises:
 
-            TypeError: if size is not an intege
+            TypeError: if size is not an integer.
             ValueError: if size is less than 0.
         """
         return self.__size
